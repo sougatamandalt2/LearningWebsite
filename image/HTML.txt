@@ -1,0 +1,5 @@
+rowspan
+colspan
+placeholder
+marque --------------------------- moving text
+contenditable

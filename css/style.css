@@ -1,0 +1,97 @@
+
+body{
+    width: 100%;
+    background-color: #E8E8E8;
+}
+header{
+    
+    background-color: #A0A0A0;
+}
+marquee{
+    float: left;
+    width: 30.5%;
+    font-family: monospace;
+    font-size: 115%;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    
+}
+header marquee b{
+    font-size: 136%;
+}
+.nav {
+  background-color: #A0A0A0;
+  width: 69.5%;
+  
+}
+
+.nav a {
+  padding-left: 2%;
+  padding-right: 3%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: #259;
+    border-radius: 40%;
+    border: 1% solid;
+    transition: .6s;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#img1{
+    width:29.2%;
+    padding-right: 13.5%;
+}
+.navbar :active {
+    background-color:cadetblue;
+    color:blue;
+}
+.navbar a:hover {
+  background-color: #5F9EA0;
+    text-align: center;
+    border-radius: 5%;
+    border: 1% solid black;
+    transition: .6s;
+}
+
+article{
+    padding-top: 2%;
+}
+
+h3{ 
+    width: 50%;
+    padding-left: 1.2%;
+    font-family:fantasy;
+    background: red;
+    border-radius: 0 0 25px;
+    text-shadow: 0px 0px 5px blue;
+}
+.navbar :active {
+    background-color:cadetblue;
+    color:blue;
+}
+#abc{
+    text-decoration: overline;
+    font-family: fantasy;
+    font-size: 180%;
+}
+#abc b{
+    font-family:serif;
+    font-size: 120%;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .nav a {
+    display: block;
+    }
+    
+}
